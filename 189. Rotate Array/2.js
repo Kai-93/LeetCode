@@ -8,7 +8,6 @@ console.time('starting')
 var rotate = function(nums, k) {
   var length = nums.length
   nums.unshift(...nums.splice(length - k, length))
-  console.log(nums)
 }
 var arr = [1, 2, 3, 4, 5, 6, 7]
 var k = 3
