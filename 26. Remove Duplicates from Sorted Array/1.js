@@ -13,5 +13,5 @@ var removeDuplicates = function(nums) {
   }
   return index + 1
 }
-console.log(removeDuplicates([]))
+console.log(removeDuplicates([1,2,4]))
 console.timeEnd('starting')
